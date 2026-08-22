@@ -8,9 +8,9 @@ Główny zbiór danych zawiera informacje o wizytach medycznych, wzbogacone o ko
 ⚠️ **Ważne:** Ze względu na duży rozmiar pliku z danymi, nie został on umieszczony bezpośrednio w repozytorium GitHub.
 * [Pobierz pełny plik z danymi z platformy Kaggle](https://www.kaggle.com/datasets/saraivaufc/conventional-weather-stations-brazil)
 
-## 🎯 Cele i etapy projektu
+## Cele i etapy projektu
 1. **Integracja danych:** Połączenie trzech odrębnych źródeł danych (demografia, pogoda, wydarzenia/uroczystości) w jeden spójny zestaw analizowany za pomocą biblioteki `pandas`.
-2. **Eksploracyjna analiza danych (EDA) & Metody statystyczne:** Wykorzystanie testów statystycznych (m.in. testu istotności **Chi-kwadrat** – `chi2_contingency`) do weryfikacji hipotez i sprawdzenia, które zmienne korelują z nieobecnością pacjentów w sposób istotny statystycznie.
+2. **Eksploracyjna analiza danych (EDA) & Metody statystyczne:** Wykorzystanie testów statystycznych (m.in. testu istotności **Chi-kwadrat** - `chi2_contingency`) do weryfikacji hipotez i sprawdzenia, które zmienne korelują z nieobecnością pacjentów w sposób istotny statystycznie.
 3. **Inżynieria cech (Feature Engineering):** Manipulacja czasem i datami (za pomocą `datetime` i `timedelta`) w celu określenia np. czasu oczekiwania na wizytę lub wpływu konkretnych dni świątecznych.
 4. **Modelowanie predykcyjne (Uczenie maszynowe):** Budowa i ocena klasyfikatora opartego na algorytmie **Lasu Losowego (Random Forest)**, służącego do przewidywania prawdopodobieństwa niestawienia się pacjenta na wizytę.
 
