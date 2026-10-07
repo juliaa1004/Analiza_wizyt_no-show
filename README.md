@@ -5,7 +5,7 @@ Projekt zajmuje się analizą danych dotyczących wizyt lekarskich oraz próbą 
 ## Dane
 Główny zbiór danych zawiera informacje o wizytach medycznych, wzbogacone o kontekst pogodowy i kalendarzowy.
 
-⚠️ **Ważne:** Ze względu na duży rozmiar pliku z danymi, nie został on umieszczony bezpośrednio w repozytorium GitHub.
+**Ważne:** Ze względu na duży rozmiar pliku z danymi, nie został on umieszczony bezpośrednio w repozytorium GitHub.
 * [Pobierz pełny plik z danymi z platformy Kaggle](https://www.kaggle.com/datasets/saraivaufc/conventional-weather-stations-brazil)
 
 ## Cele i etapy projektu
